@@ -1,0 +1,97 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-right:50px;
+}
+a {
+    text-decoration: none;
+    color: gray;
+}
+.links {
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    gap: 50px;
+    margin-top: -20px;
+    margin-right: 12%;
+}
+.main-img {
+    margin-top: 20px;
+    height: 50vh;
+    width: 90%;
+}
+h1 {
+    font-size: 62px;
+}
+.section-texts {
+    margin-top: 10px;
+    display: flex;
+    gap: 19%;
+}
+.section-texts-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+    line-height: 27px;
+}
+button {
+    height: 40px;
+    width: 50%;
+    color: #fff;
+    background-color: orangered;
+    border: none;
+    letter-spacing: 2px;
+}
+.main {
+    display: flex;
+}
+aside {
+    margin-top: 20px;
+    border: 1px solid black;
+    color: #fff;
+    background-color: black;
+    width: 25%;
+    padding: 20px;
+    line-height: 30px;
+    height: 81vh;
+}
+.new {
+    color: orange;
+    margin-bottom: 20px;
+}
+aside p {
+    color: gray;
+}
+aside hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.article {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+article img {
+    width: 60px;
+    height: 80px;
+}
+.articles {
+    display: flex;
+    gap: 20px;
+}
+.article-texts {
+    display: flex;
+    flex-direction: column;
+    line-height: 3vh;
+}
+.articles h2 {
+    color: gray;
+}
